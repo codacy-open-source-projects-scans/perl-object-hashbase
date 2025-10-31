@@ -1,0 +1,63 @@
+{{$NEXT}}
+
+0.014     2024-08-23 10:13:45-07:00 America/Los_Angeles
+
+    - Add extra init() functionality
+
+0.013     2024-03-21 17:41:14-07:00 America/Los_Angeles
+
+    - Documentation Fixes
+
+0.012     2024-03-21 13:55:43-07:00 America/Los_Angeles
+
+    - Do not taint $@, $!, $? or $^E when checking for Class::XSAccessor.
+    - Ignore __DIE__ handlers when checking for Class::XSAccessor.
+
+0.011     2024-03-21 13:38:57-07:00 America/Los_Angeles
+
+    - Add support for Class::XSAccessor when it is installed
+
+0.010     2023-10-22 21:52:16-07:00 America/Los_Angeles
+
+    - Merge doc fixes #3
+    - Fix pevious Changes entry
+
+0.009     2020-01-17 09:44:48-08:00 America/Los_Angeles
+
+    - Skip test on 5.6
+
+0.008     2019-09-24 16:38:29-07:00 America/Los_Angeles
+
+    - Add the '+' attribute prefix (constant only)
+
+0.007     2019-09-19 16:43:04-07:00 America/Los_Angeles
+
+    - Add < and > attribute prefixes (read only and write-only)
+
+0.006     2017-10-20 20:37:09-07:00 America/Los_Angeles
+
+    - Allow custom module versions in inlined copies
+
+0.005     2017-02-10 21:46:32-08:00 America/Los_Angeles
+
+    - Spelling fix in POD
+
+0.004     2017-02-09 20:40:37-08:00 America/Los_Angeles (TRIAL RELEASE)
+
+    - Add ability to get a list of attributes
+    - Add hashref and arrayref constructors
+    - Cache $class->can('init') for Test2 performance
+    - Add docs for deprecated and read-only setters
+    - Better inline tokens, do not rely on VERSION
+
+0.003     2016-12-10 21:50:47-08:00 America/Los_Angeles
+
+    - Do not use autoload
+
+0.002     2016-12-09 12:48:28-08:00 America/Los_Angeles
+
+    - Fix test packages
+
+0.001     2016-12-09 12:43:01-08:00 America/Los_Angeles
+
+    - Initial Release
